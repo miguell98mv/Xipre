@@ -1,0 +1,65 @@
+#container{
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 50px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    margin-top: 40px;
+
+}
+.pelicula{
+    display: inline-block;
+    width: 120px;
+    height: 230px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-right: 30px;
+    text-align: center;
+    vertical-align: top;
+
+
+
+}
+#paginas{
+	margin-top: 20px;
+	 margin-bottom: 30px;
+}
+
+#paginas ul{
+    margin: 10px 0;
+    padding: 0;
+}
+#paginas li{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+#paginas li a{
+    background: rgb(228, 228, 228);
+	box-shadow: 1px 1px 2px 1px  rgba(0,0,0,20%);
+    border-radius: 3px;
+    color: rgb(50, 50, 50);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.actual{
+    background: #330099 !important;
+    color: rgb(255, 255, 255) !important;
+}
+/* CSS Document */
+
+@media (max-width: 576px) {
+	#paginas li a{
+		margin-left: -10px;
+    padding: 5px 10px;
+  
+ }
+	#paginas ul{
+    margin: 0px 0;
+    padding: 0 0;
+}
+}

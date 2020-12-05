@@ -1,0 +1,207 @@
+
+.inicioSession{
+	width:700px; margin: 30px auto; border-radius:10px; border:1px solid rgba(0,0,0,20%);
+	padding: 0 0px;
+}
+
+.tituloSession{
+	display: flex;
+	height: 60px; width: 100%; border-radius:10px 10px 0 0; margin-bottom: 20px; background: #4526AF;
+}
+
+#tituloWed{
+width:120px;
+margin: auto auto;
+}
+
+#imageUser{
+	display: flex; margin: 0 auto; margin-bottom: 20px;width:400px;
+}
+
+#crearCuenta{
+	margin-left: 150px; margin-top: 20px; margin-bottom: 20px; color: black; font-size: 25px;
+}
+
+#error{
+ margin-top: 0px; margin-bottom: 0px; color: red; font-size: 18px;
+}
+
+.formulario{
+   display:flex;
+	justify-content: center;
+}
+
+.nombre input{
+	width: 100%;
+	border:none; margin: auto auto; outline:none;margin-left: 10%;
+}
+
+.nombre{
+	display: flex;width:30%; height:50px; border-radius:10px; border:1px solid rgba(0,0,0,20%);overflow: hidden;
+}
+
+.cajaHide{
+	width:5%; height:50px;
+}
+
+.nombreCorreo{
+	width:65%; height:50px; border-radius:10px; border:1px solid rgba(0,0,0,20%); display: flex;overflow: hidden;
+}
+
+.nombreCorreo input{
+	border:none; margin: auto 0; margin-left: 5%; outline:none; width: 50%;
+}
+
+.formularioCorreo{
+	display: flex;
+	justify-content: center;
+	margin:20px auto;
+}
+
+#tengoCuenta{
+	margin-left: 20%; margin-top: 10px; font-weight: 500; color: #6776FF;
+}
+
+.CajaBotonCrear{
+	 margin-bottom: 50px; display: flex;
+}
+
+.CajaBotonCrear buttom{
+	border-radius:10px; background:red; padding:10px; font-weight: 500; color:white; margin-left:68%;
+}
+
+
+
+
+@media (max-width: 992px) {
+	
+.inicioSession{
+	width:550px; margin: 30px auto; border-radius:10px; border:1px solid rgba(0,0,0,20%);
+	padding: 0 0px;
+}
+.tituloSession{
+	display: flex;
+	height: 56px; width: 100%; border-radius:10px 10px 0 0; margin-bottom: 15px; background: #4526AF;
+}
+#tituloWed{
+width:113px;
+margin: auto auto;
+}
+#imageUser{
+	display: flex; margin: 0 auto; margin-bottom: 20px;width:360px;
+}
+#crearCuenta{
+	margin-left: 20%; margin-top: 15px; margin-bottom: 15px; color: black; font-size: 23px;
+}
+	
+#error{
+  margin-top: 0px; margin-bottom: 0px; color: red; font-size: 15px;
+}
+	
+.nombre{
+	display: flex;width:30%; height:45px; border-radius:10px; border:1px solid rgba(0,0,0,20%);
+}
+
+.nombreCorreo{
+	width:65%; height:45px; border-radius:10px; border:1px solid rgba(0,0,0,20%); display: flex;
+}
+.formularioCorreo{
+	display: flex;
+	justify-content: center;
+	margin:15px auto;
+}
+.cajaHide{
+	width:5%; height:45px;
+}
+#tengoCuenta{
+margin-left: 20%; margin-top: 8px; font-weight: 500; color: #6776FF;
+}
+.CajaBotonCrear buttom{
+	border-radius:10px; background:red; padding:10px; font-weight: 500; color:white; margin-left:68%;font-size: 13px;
+}
+	
+}
+	
+
+
+
+@media (max-width: 768px) {
+.inicioSession{
+	width:470px; margin: 30px auto; border-radius:10px; border:1px solid rgba(0,0,0,20%);
+	padding: 0 0px;
+}
+	.tituloSession{
+	display: flex;
+	height: 51px; width: 100%; border-radius:10px 10px 0 0; margin-bottom: 10px; background: #4526AF;
+}
+#tituloWed{
+width:106px;
+margin: auto auto;
+}
+#imageUser{
+	display: flex; margin: 0 auto; margin-bottom: 10px;width:300px;
+}
+#crearCuenta{
+	margin-left: 20%; margin-top: 15px; margin-bottom: 15px; color: black; font-size: 18px;
+}
+#error{
+ margin-top: 0px; margin-bottom: 0px; color: red; font-size: 12px;
+}
+.nombre{
+	display: flex;width:30%; height:40px; border-radius:10px; border:1px solid rgba(0,0,0,20%);
+}
+
+.nombreCorreo{
+	width:65%; height:40px; border-radius:10px; border:1px solid rgba(0,0,0,20%); display: flex;
+}
+.formularioCorreo{
+	display: flex;
+	justify-content: center;
+	margin:10px auto;
+}
+.cajaHide{
+	width:5%; height:40px;
+}
+#tengoCuenta{
+margin-left: 20%; margin-top: 0px; font-weight: 500; color: #6776FF;
+}
+}
+
+
+@media (max-width: 576px) {
+.inicioSession{
+	width:300px; margin: 30px auto; border-radius:10px; border:1px solid rgba(0,0,0,20%);
+	padding: 0 0px;
+}
+	.tituloSession{
+	display: flex;
+	height: 48px; width: 100%; border-radius:10px 10px 0 0; margin-bottom: 5px; background: #4526AF;
+}
+#tituloWed{
+width:90px;
+margin: auto auto;
+}
+#imageUser{
+	display: flex; margin: 0 auto; margin-bottom: 5px;width:240px;
+}
+	#crearCuenta{
+	margin-left: 20%; margin-top: 15px; margin-bottom: 15px; color: black; font-size: 15px;
+}
+.nombre{
+	display: flex;width:40%; height:35px; border-radius:10px; border:1px solid rgba(0,0,0,20%);
+}
+
+.nombreCorreo{
+	width:85%; height:35px; border-radius:10px; border:1px solid rgba(0,0,0,20%); display: flex;
+}
+
+.cajaHide{
+	width:5%; height:35px;
+}
+#tengoCuenta{
+margin-left: 10%; margin-top: -5px; font-weight: 500; color: #6776FF;font-size: 13px;
+}
+.CajaBotonCrear buttom{
+	border-radius:10px; background:red; padding:10px; font-weight: 500; color:white; margin-left:60%;font-size: 13px;
+}
+}

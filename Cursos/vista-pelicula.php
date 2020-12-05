@@ -1,0 +1,2 @@
+<a href="videos/?curso=<?php echo $_GET["curso"];?>&video=<?php echo $pelicula["id"]; ?>" style="text-decoration: none; color:#252525">
+<div class="cursos-cero py-2 align-content-center align-self-center align-items-center" onclick="aviso()"><div id="caja-cursos" class="d-inline-block ml-sm-3"><div class="d-inline-block"><img src="img videos/<?php echo $_GET["curso"]; ?>/<?php echo $pelicula["id"]; ?>.png" alt="" style="border-radius:10%;"></div></div><h1 class="text-subcursos"><b><?php echo $pelicula["nombre"];?></b></h1></div></a>
